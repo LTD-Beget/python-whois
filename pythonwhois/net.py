@@ -13,8 +13,12 @@ def get_whois_raw(domain, server="", previous=None, rfc3490=True, never_cut=Fals
         ".ps": "whois.pnina.ps",
         ".buzz": "whois.nic.buzz",
         ".moe": "whois.nic.moe",
-        ".ru": "whois.nic.ru",
-        ".su": "whois.nic.ru",
+        ".spb.ru": "whois.nic.ru",
+        ".msk.ru": "whois.nic.ru",
+        ".msk.su": "whois.nic.ru",
+        ".com.ru": "whois.nic.ru",
+        ".spb.su": "whois.nic.ru",
+        ".pp.ru": "whois.nic.ru",
         # The following is a bit hacky, but IANA won't return the right answer for example.com because it's a direct registration.
         "example.com": "whois.verisign-grs.com"
     }
